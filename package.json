@@ -1,0 +1,14 @@
+{
+  "name": "all-formulas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
