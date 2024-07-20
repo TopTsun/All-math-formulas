@@ -3,7 +3,7 @@ const inp = document.querySelector(`.password-inp`);
 const wrapper = document.querySelector(`.wrapper`);
 const passwordEl = document.querySelector(`.password`);
 
-const passwordRight = `213`;
+const passwordRight = `gorg1234`;
 
 if (!JSON.parse(localStorage.getItem(`password`))) {
   wrapper.classList.add(`hide`);

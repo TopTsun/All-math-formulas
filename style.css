@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #aa1153;
 }
 
 body {
@@ -10,8 +11,8 @@ body {
   flex-wrap: wrap;
   height: 100vh;
   justify-content: center;
-  background-color: wheat;
-  align-items: center;
+  background-color: #7c9867;
+  /* align-items: center; */
 }
 
 .wrapper {
@@ -24,10 +25,11 @@ body {
 
 .formula-info {
   width: 100%;
-  background-color: rgb(129, 90, 90);
+  background-color: #677c98;
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
+  border-radius: 8px;
 }
 
 img {
@@ -36,14 +38,14 @@ img {
 }
 
 .formula {
-  margin: 20px 40px;
+  margin: 60px 40px;
 }
 
-p {
+/* p {
   margin-top: 12px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .password {
   display: flex;
@@ -56,6 +58,16 @@ p {
   border-radius: 40px;
   padding: 10px;
   font-size: 15px;
+  outline: solid #aa1153;
+  border: none;
+}
+
+.wrap-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
 }
 
 .hide {
